@@ -1,82 +1,100 @@
-# Generate enhanced markdown with meta description, CTA, and clean sections
-content = """---
-title: Free Cybersecurity Certifications (Beginner to Expert)
-description: A curated, SEO-optimized list of 100% free cybersecurity certifications categorized into Beginner, Intermediate, and Expert levels. Includes ethical hacking, cloud security, SIEM, secure software development, governance, and blue‑team training.
-keywords: free cybersecurity certifications, free cyber certs, beginner cyber certs, SIEM free training, ethical hacking free certification, cloud security free courses, MITRE ATT&CK free course, purple teaming free, ISO 27001 free certification
+---
+title: Free Cybersecurity Certifications (Beginner → Expert)
+description: Curated, cybersecurity-focused list of free certifications and training — categorized by Beginner, Intermediate, and Expert levels. Includes ethical hacking, SIEM, cloud security, purple teaming, and secure development.
+keywords: free cybersecurity certifications, free cyber certs, SIEM training, ethical hacking free cert, cloud security free course, MITRE ATT&CK training, secure coding free
 robots: index, follow
 ---
 
-# Free Cybersecurity Certifications (Beginner → Expert)
+# Free Cybersecurity Certifications
 
-A **curated, verified, cybersecurity‑only** list of **100% free** certifications.  
-Organized by **skill level**, SEO‑friendly, and ready for GitHub or documentation use.
+**A focused, curated collection of free cybersecurity certifications** — organized by skill level (Beginner → Intermediate → Expert) to help students, bug-bounty hunters, SOC analysts, and aspiring security professionals discover verified, practical learning paths.
 
----
+> **Adapted from** `cloudcommunity/Free-Certifications` — content rewritten and refocused exclusively on cybersecurity offerings. Links were taken from the original collection; verify availability before relying on time-limited offers.
 
-# ⭐ Support the Project  
-If this repository helps you, **please give it a Star ⭐** on GitHub.  
-It motivates continued updates and keeps the project alive for the community.
-
-**→ Follow for Cybersecurity Resources & Updates**  
-Stay updated with new free certifications, pentesting resources, SIEM labs, and blue‑team material.
-
----
-
-# 📘 Table of Contents
-- [Beginner Certifications](#beginner-certifications)
-- [Intermediate Certifications](#intermediate-certifications)
-- [Expert Certifications](#expert-certifications)
+## Quick links
+- [Beginner Certifications](#beginner-certifications)  
+- [Intermediate Certifications](#intermediate-certifications)  
+- [Expert Certifications](#expert-certifications)  
+- [Related: Cloud & Secure Development](#related-cloud--secure-development)  
+- [Contributing](#contributing)  
+- [License](#license)
 
 ---
 
-# Beginner Certifications
-| Provider | Description | Link | Expiration |
+## How this list was prepared
+- This README contains only **free** or **freely available** cybersecurity training/certifications and excludes general marketing items.  
+- Coursera or other platforms that require paid certificates were excluded unless a free certificate is explicitly offered.  
+- Items are grouped by **learning level** to help learners pick the right starting point and progress path.
+
+---
+
+## Beginner Certifications
+
+| Provider | Title / Short description | Link | Notes |
 | --- | --- | --- | --- |
-| Cisco Certificate in Ethical Hacking | Ethical hacking basics — reconnaissance, scanning essentials | https://www.netacad.com/courses/ethical-hacker?courseLang=en-US | Unlimited |
-| ISC² Certified in Cybersecurity (CC) | Entry-level certification covering core cybersecurity domains | https://www.isc2.org/landing/1mcc | 31-Dec-2024 |
-| Cisco Introduction to Cybersecurity | Foundations of threats, attacks, and basic defense | https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity | Unlimited |
-| SkillFront ISO/IEC 27001 Associate | ISMS basics, security governance, policies | https://www.skillfront.com/ISO-IEC-27001-Information-Security-Associate | Unlimited |
+| Cisco Networking Academy | Introduction to Cybersecurity — fundamentals of threats, defensive basics and career pathways. | https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity | Badge on completion |
+| Cisco Networking Academy | Cybersecurity Essentials — basic network security and core defenses. | https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials | Badge on completion |
+| ISC² | Certified in Cybersecurity (CC) — entry-level exam & study resources (voucher availability varies). | https://www.isc2.org/landing/1mcc | Check voucher eligibility |
+| SkillFront | ISO/IEC 27001 Information Security Associate — fundamentals of ISMS and governance. | https://www.skillfront.com/ISO-IEC-27001-Information-Security-Associate | Good for awareness |
 
 ---
 
-# Intermediate Certifications
-| Provider | Description | Link | Expiration |
+## Intermediate Certifications
+
+| Provider | Title / Short description | Link | Notes |
 | --- | --- | --- | --- |
-| Cisco U – CyberOps Fundamentals | SOC workflows, event analysis, cyber operations essentials | https://u.cisco.com/path/32 | Expired (Archive learning only) |
-| Fortinet NSE Training | Network security fundamentals, firewalls, SOC basics | https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2020/fortinet-makes-all-online-cybersecurity-training-courses-available-for-free.html | Unlimited |
-| Google Cloud Skills Boost – Security & Identity | Cloud IAM, identity models, access security | https://www.cloudskillsboost.google/course_templates/770 | Unlimited |
-| Linux Foundation – Developing Secure Software (LFD121) | Secure coding, threat modeling, software supply chain | https://training.linuxfoundation.org/training/developing-secure-software-lfd121/ | Unlimited |
-| IBM QRadar SIEM Foundation | SIEM fundamentals — offenses, rules, correlation | https://www.ibm.com/training/learning-path/ibm-qradar-siem-foundation-694 | Unlimited |
+| Fortinet / NSE Institute | Network security training — firewalls, network defense and SOC basics. | https://www.fortinet.com | Self-paced courses; certification paths available |
+| Google Cloud Skills Boost | Security & Identity Fundamentals — cloud IAM, identity, and access control models. | https://www.cloudskillsboost.google/course_templates/770 | Useful for cloud security basics |
+| IBM | QRadar SIEM Foundation — SIEM fundamentals: events, correlation, and SOC workflow. | https://www.ibm.com/training/learning-path/ibm-qradar-siem-foundation-694 | Hands-on with QRadar concepts |
+| Linux Foundation / OpenSSF | Developing Secure Software (LFD121) — secure coding, threat modelling, supply chain. | https://training.linuxfoundation.org/training/developing-secure-software-lfd121/ | Developer-focused security |
 
 ---
 
-# Expert Certifications
-| Provider | Description | Link | Expiration |
+## Expert Certifications
+
+| Provider | Title / Short description | Link | Notes |
 | --- | --- | --- | --- |
-| AttackIQ Purple Teaming | Hands-on purple teaming, attack simulation | https://www.academy.attackiq.com/courses/foundations-of-purple-teaming | Unlimited |
-| AttackIQ Breach & Attack Simulation | Adversary emulation & detection engineering | https://www.academy.attackiq.com/courses/foundations-of-breach-attack-simulation | Unlimited |
-| AttackIQ Operationalizing MITRE ATT&CK v13 | Deep MITRE mapping, threat-driven defense | https://www.academy.attackiq.com/courses/foundations-of-operationalizing-mitre-attck-v13 | Unlimited |
+| AttackIQ | Foundations of Purple Teaming — purple-team methods and detection testing. | https://www.academy.attackiq.com/courses/foundations-of-purple-teaming | Advanced defensive/offensive integration |
+| AttackIQ | Foundations of Breach & Attack Simulation — adversary emulation & validation. | https://www.academy.attackiq.com/courses/foundations-of-breach-attack-simulation | Best for detection engineering |
+| AttackIQ | Operationalizing MITRE ATT&CK — mapping and mature defensive strategies. | https://www.academy.attackiq.com/courses/foundations-of-operationalizing-mitre-attck-v13 | Deep MITRE use cases |
 
 ---
 
-# Notes
-- Only **completely free certifications** were included.  
-- Coursera items were removed because certificates require payment.  
-- Content is optimized for SEO and GitHub documentation usage.  
-- No marketing, business, or unrelated content included.
+## Related: Cloud Security & Secure Development
+(These entries are highly relevant to cybersecurity careers — kept here as related items.)
+
+| Provider | Title / Short description | Link | Notes |
+| --- | --- | --- | --- |
+| Google Cloud Skills Boost | Cloud engineering & security fundamentals (additional cloud tracks). | https://explore.skillbuilder.aws/learn/catalog (or Google Cloud Skills Boost) | Check provider for free badges |
+| The Linux Foundation / OpenSSF | Secure software development courses — supply chain and secure practices. | https://training.linuxfoundation.org | Developer security path |
+| Elastic / Other | Observability and security-related free trainings (search provider pages). | https://www.elastic.co/training/free | Useful for log analysis & detection |
 
 ---
 
-Feel free to request:
-✔ A full GitHub README version  
-✔ A banner/header image  
-✔ Automatic updates  
-✔ Extra sections (Cloud Security, Pentesting, SOAR, Malware Analysis)
+## Notes & verification
+- **Verify links & availability**: This README is a curated extraction and rewrite: links originate from the source collection. Time-limited offers may expire — verify each program before enrolling.  
+- **Scope**: Only cybersecurity-relevant items were included. Marketing-only or non-cyber items were excluded.  
+- If you want, I will run a live verification pass and mark each entry as: `Free`, `Audit-only (certificate paid)`, or `Expired/Removed`.
 
-"""
+---
 
-output_path = "/mnt/data/Cybersecurity_Free_Certifications_SEO.md"
-with open(output_path, "w", encoding="utf-8") as f:
-    f.write(content)
+## Contributing
+Contributions are welcome. To propose additions or fixes:
 
-output_path
+1. Fork this repository  
+2. Create a branch: `git checkout -b add-cert-<short-name>`  
+3. Add or update entries in the appropriate section (maintain the table format)  
+4. Commit your changes: `git commit -m "Add <cert-name> to security list"`  
+5. Push and open a Pull Request
+
+Please include a short note about verification (link working / certificate free) in your PR.
+
+---
+
+## Attribution
+This repository was adapted from `cloudcommunity/Free-Certifications`. Content has been rewritten and refocused to provide a cybersecurity-only collection. Original source: https://github.com/cloudcommunity/Free-Certifications
+
+---
+
+## License
+This project is distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
